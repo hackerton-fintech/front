@@ -59,7 +59,7 @@ export default {
       .then((res) => {
         this.items = res.data;
       })
-    this.items = [{ link: "a", name: "a", percent: "30" }, { link: "b", name: "b", percent: "70" }];
+    this.items = [{ link: "StockView", name: "주식", percent: "30" }, { link: "BondView", name: "채권", percent: "50" }, {link: "DepositView", name"예금", percent:"20"}];
 
   },
   mounted() {
