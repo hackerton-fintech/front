@@ -9,18 +9,21 @@
 <script>
 // import HomeView from '@/views/HomeView.vue'
 
-export default{
-  components:{
+export default {
+  components: {
     // HomeView,
-    
   },
-}
+};
 </script>
 
 <style>
-.app-home-btn{
+.recommand-btn * {
+  text-decoration: none;
+  color: black;
+}
+.app-home-btn {
   position: fixed;
-  top:30px;
+  top: 30px;
   right: 20px;
 }
 #app {
