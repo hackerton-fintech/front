@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <router-link class="app-home-btn" to="/">캐시카우</router-link>
-    <router-view />
+  <div id="app" style="background-color: gold;">
+    <router-link class="app-home-btn" to="/">Home</router-link>
+    <router-view/>
+    <p>asd</p>
   </div>
 </template>
 
