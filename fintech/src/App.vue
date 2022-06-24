@@ -1,26 +1,28 @@
 <template>
   <div id="app">
-    <router-link class="app-home-btn" to="/">Home</router-link>
-    <router-view/>
-    <p>asd</p>
+    <router-link class="app-home-btn" to="/">캐시카우</router-link>
+    <router-view />
   </div>
 </template>
 
 <script>
 // import HomeView from '@/views/HomeView.vue'
 
-export default{
-  components:{
+export default {
+  components: {
     // HomeView,
-    
   },
-}
+};
 </script>
 
 <style>
-.app-home-btn{
+.recommand-btn * {
+  text-decoration: none;
+  color: black;
+}
+.app-home-btn {
   position: fixed;
-  top:30px;
+  top: 30px;
   right: 20px;
 }
 #app {

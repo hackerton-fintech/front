@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="bond">
+    
     <p>채권페이지</p>
     
   </div>

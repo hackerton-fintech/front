@@ -4,6 +4,11 @@ import HomeView from '../views/HomeView.vue'
 import StockView from "../views/StockView.vue";
 import BondView from "../views/BondView.vue";
 import DepositView from "../views/DepositView.vue";
+import AView from "../components/detail/AView.vue";
+import BView from "../components/detail/BView.vue";
+import CView from "../components/detail/CView.vue";
+import DView from "../components/detail/DView.vue";
+import EView from "../components/detail/EView.vue";
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,7 +16,6 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
-    
   },
   {
     path: "/stock",
@@ -27,6 +31,31 @@ const routes = [
     path: "/deposit",
     name: "deposit",
     component: DepositView,
+  },
+  {
+    path: "/a",
+    name: "a",
+    component: AView,
+  },
+  {
+    path: "/b",
+    name: "b",
+    component: BView,
+  },
+  {
+    path: "/c",
+    name: "c",
+    component: CView,
+  },
+  {
+    path: "/d",
+    name: "d",
+    component: DView,
+  },
+  {
+    path: "/e",
+    name: "e",
+    component: EView,
   },
 ];
 

@@ -1,14 +1,12 @@
 <template>
-  <div class="stock">
-    <p>주식페이지</p>
-    <div>
-    <router-view/>
-  </div>
+  <div class="a">
+    <p>AAAAA</p>
   </div>
 </template>
 
 <script>
 export default {
+
 }
 </script>
 
