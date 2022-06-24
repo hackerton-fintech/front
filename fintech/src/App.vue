@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="background-color: gold;">
     <router-link class="app-home-btn" to="/">Home</router-link>
     <router-view/>
     <p>asd</p>
