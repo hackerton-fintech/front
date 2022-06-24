@@ -9,6 +9,7 @@ import BView from "../components/detail/BView.vue";
 import CView from "../components/detail/CView.vue";
 import DView from "../components/detail/DView.vue";
 import EView from "../components/detail/EView.vue";
+import LogInVue from "../components/LogInVue.vue";
 Vue.use(VueRouter)
 
 const routes = [
@@ -16,6 +17,11 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+  },
+  {
+    path: "/login",
+    name: "login",
+    component: LogInVue,
   },
   {
     path: "/stock",
