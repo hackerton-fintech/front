@@ -2,15 +2,17 @@
   <div id="app">
     <router-link class="app-home-btn" to="/">Home</router-link>
     <router-view/>
+    <p>asd</p>
   </div>
 </template>
 
 <script>
-//import HomeView from '@/views/HomeView.vue'
+// import HomeView from '@/views/HomeView.vue'
 
 export default{
   components:{
-    //HomeView,
+    // HomeView,
+    
   },
 }
 </script>
