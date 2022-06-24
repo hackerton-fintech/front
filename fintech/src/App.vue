@@ -1,16 +1,17 @@
 <template>
-  <div id="app">
+  <div id="app" style="background-color: gold;">
     <router-link class="app-home-btn" to="/">Home</router-link>
     <router-view/>
   </div>
 </template>
 
 <script>
-//import HomeView from '@/views/HomeView.vue'
+// import HomeView from '@/views/HomeView.vue'
 
 export default{
   components:{
-    //HomeView,
+    // HomeView,
+    
   },
 }
 </script>

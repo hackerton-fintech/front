@@ -1,7 +1,6 @@
 <template>
-  <div style="display:flex; height:100%; flex-direction: column; background-color:gold">
-    <div style="height:100px;"></div>
-    <div style="background-color: white;  border-radius:8px; width:80%; margin:0 auto;">
+  <div style="display:flex; height:100%; flex-direction: column;">
+    <div style="background-color: white;  border-radius:8px; width:80%; margin:0 auto; margin-top: 100px;">
       <div style="font-size:20px;">
         xnwk qnstjr
       </div>
@@ -10,19 +9,18 @@
       <animated-number :value="100000000" :formatValue="formatMoney" :duration="1500" />
     </div>
 
-    
-    <div class="recommand-btn" style="width:100%; margin-top: 30px; background-color: white;">
+
+    <div class="recommand-btn"
+      style="width:80%; margin: 0 auto; margin-top: 30px; margin-bottom: 30px; background-color: white; border-radius: 10px;">
       <div v-for="item in items" :key="item.id">
 
-        <div>
+        <div style="margin-top:5px">
           <router-link :to="{ name: item.link }">
             <div class="bar-graph">
-                <div :data-width="`${item.percent}`" style="">
-                  {{ item.name }}
-                  <span>
-                    <animated-number :value="`${item.percent}`" :formatValue="format" :duration="1500" />
-                  </span>
-                </div>
+              
+              <div class="content" :data-width="`${item.percent}`" style=";">
+                <animated-number :value="`${item.percent}`" :formatValue="format" :duration="1500" />
+              </div>
             </div>
           </router-link>
         </div>
@@ -47,7 +45,7 @@ export default {
   watch: {
   },
   methods: {
-    formatMoney(value){
+    formatMoney(value) {
       return `${value.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
     },
     format(value) {
@@ -59,14 +57,20 @@ export default {
       .then((res) => {
         this.items = res.data;
       })
-    this.items = [{ link: "a", name: "a", percent: "30" }, { link: "b", name: "b", percent: "70" }];
-
+    this.items = [
+      { link: "stock", name: "주식", percent: "14" }, 
+      { link: "bond", name: "채권", percent: "60" }, 
+      { link: "deposit", name: "예금", percent: "15" },
+      { link: "DepositView", name: "123", percent: "5" },
+      { link: "DepositView", name: "asd", percent: "6" },
+      ];
+    console.log(this.items)
   },
   mounted() {
     document.querySelectorAll(".bar-graph div").forEach(el => {
       el.setAttribute("style", "width:" + el.getAttribute("data-width") +
         "%;")
-      
+
     })
   },
 }
@@ -88,14 +92,11 @@ export default {
   line-height: 25px;
   height: 25px;
   margin-bottom: 5px;
-
   background-color: white;
-
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
-
 }
 
 .bar-graph * {
@@ -109,8 +110,9 @@ export default {
 .bar-graph div {
   background-color: #ffc600;
   position: relative;
+  text-align: center;
+  margin-left: 5px;
   padding-left: 25px;
-
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
