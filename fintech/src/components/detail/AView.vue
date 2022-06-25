@@ -1,46 +1,20 @@
 <template>
-  <div class="a">
-    <highcharts :options="chartOptions" />
+  <div class="content-box" style="margin-top: 242px">
+    <div class="recommend-box">
+      <span>
+        <img src="@/assets/1.jpg" alt="graph" class="emoji" />
+      </span>
+      <span class="content">
+        <p class="deposit-name-recommend">비대면 회전정기예금</p>
+        <p class="deposit-bank-recommend">HB저축은행</p>
+        <p class="deposit-rate-recommend">기본 3.55% (12개월)</p>
+      </span>
+    </div>
   </div>
 </template>
 
 <script>
-import { Chart } from "highcharts-vue";
-export default {
-  components: {
-    highcharts: Chart,
-  },
-  data() {
-    return {
-      chartOptions: {
-        title: {
-          text: "title",
-        },
-        subtitle: {
-          text: "subtitle",
-        },
-        yAxis: {
-          title: {
-            text: "yAxis",
-          },
-          plotOptions: {
-          series: {
-            label: {
-              connectorAllowed: false
-            },
-            pointStart: 2010
-          }
-        },
-        },
-        series: [
-          {
-            data: [1, 2, 3], // sample
-          },
-        ],
-      },
-    };
-  },
-};
+export default {};
 </script>
 
 <style></style>

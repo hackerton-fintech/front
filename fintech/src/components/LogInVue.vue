@@ -1,12 +1,13 @@
 <template>
+
     <div>
         <div style="background-color: gold; display:flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 auto; width:50%;">
             <input type="text" placeholder="id" v-model="id" />
             <input type="password" placeholder="password" v-model="pw" />
             <button style="border:1px solid gray; background-color: gold;" @click="login">로그인</button>
         </div>
-
     </div>
+  </div>
 </template>
 
 <script>
@@ -38,6 +39,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

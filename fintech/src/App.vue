@@ -12,7 +12,6 @@
         style="border:none; background-color: gold; font-size: 1rem; outline:0;">LogOut</button>
       <router-link to="/">Join</router-link>
     </div> -->
-
   </div>
 </template>
 

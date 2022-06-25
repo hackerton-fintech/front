@@ -9,7 +9,9 @@
 <script>
 export default {
 name: "BondView",
-  components: {},
+  components: {
+    
+  },
 }
 </script>
 
