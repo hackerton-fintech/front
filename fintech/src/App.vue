@@ -1,6 +1,6 @@
 <template>
 
-  <div id="app" style="background-color: gold; height: 844px;">
+  <div id="app" style="background-color: #ffffff; height: 844px;">
     <div class="app-home-btn">
       <router-link :to="{name: 'login'}" v-if="!isLogin">Login</router-link>
       <button v-else @click="logOut" style="border:none; background-color: gold; font-size: 1rem; outline:0;">LogOut</button>

@@ -1,5 +1,6 @@
 <template>
-  <div class="c">
+  <div class="content-box">
+    <img src="@/assets/wallet.jpg" alt="graph" class="emoji" />
     <p>CCCCC</p>
   </div>
 </template>
@@ -8,4 +9,6 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+
+</style>

@@ -1,5 +1,6 @@
 <template>
-  <div class="e">
+  <div class="content-box">
+    <img src="@/assets/bar-chart.jpg" alt="graph" class="emoji" />
     <p>EEEEE</p>
   </div>
 </template>
@@ -8,4 +9,6 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+
+</style>
