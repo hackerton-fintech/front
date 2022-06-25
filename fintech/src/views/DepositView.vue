@@ -22,14 +22,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .view {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .comp {
-  background: yellow;
+  background: white;
   width: 200px;
   border-radius: 12px;
   margin: 20px;

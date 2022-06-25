@@ -1,4 +1,5 @@
 <template>
+
   <div id="app" style="background-color: gold; height: 844px;">
     <div class="app-home-btn">
       <router-link :to="{name: 'login'}" v-if="!isLogin">Login</router-link>

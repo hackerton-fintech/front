@@ -21,11 +21,9 @@
     <div class="recommand-btn"
       style="width:80%; box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.5); margin: 0 auto; margin-top: 30px; margin-bottom: 30px; background-color: white; border-radius: 10px;">
       <div v-for="item in items" :key="item.id">
-
-        <div style="margin-top:5px">
+        <div style="margin-top: 5px">
           <router-link :to="{ name: item.link }">
             <div class="bar-graph">
-
               <div class="content" :data-width="`${item.percent}`" style=";">
                 <animated-number :value="`${item.percent}`" :formatValue="format" :duration="1500" />
               </div>
@@ -38,33 +36,31 @@
 </template>
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 import AnimatedNumber from "animated-number-vue";
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   data() {
     return {
       items: [],
-    }
+    };
   },
   components: {
-    AnimatedNumber
+    AnimatedNumber,
   },
-  watch: {
-  },
+  watch: {},
   methods: {
     formatMoney(value) {
       return `￦ ${value.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
     },
     format(value) {
       return `${value.toFixed(0)}`;
-    }
+    },
   },
   created() {
-    axios.get('http://localhost:8888/info')
-      .then((res) => {
-        this.items = res.data;
-      })
+    axios.get("http://localhost:8888/info").then((res) => {
+      this.items = res.data;
+    });
     this.items = [
       { link: "stock", name: "주식", percent: "14" },
       { link: "bond", name: "채권", percent: "60" },
@@ -75,13 +71,14 @@ export default {
     console.log(this.items)
   },
   mounted() {
-    document.querySelectorAll(".bar-graph div").forEach(el => {
-      el.setAttribute("style", "width:" + el.getAttribute("data-width") +
-        "%;")
-
-    })
+    document.querySelectorAll(".bar-graph div").forEach((el) => {
+      el.setAttribute(
+        "style",
+        "width:" + el.getAttribute("data-width") + "%; transition-duration: 1s;"
+      );
+    });
   },
-}
+};
 </script>
 
 <style>
