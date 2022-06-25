@@ -26,17 +26,18 @@
 
         <div>
           <router-link :to="{ name: item.link }"
-            style="display:flex; flex-direction: row; align-items: center; justify-content: space-between;">
+            style="display:flex; flex-direction: row; align-items: center; justify-content: space-between; 
+  margin-top: 10px;">
 
             <div class="bar-graph">
               <div class="content" :data-width="`${item.percent}`" style=";">
               </div>
               <animated-number class="contnet-num" :value="`${item.percent}`" :formatValue="format" :duration="1500"
-                style="color:rgba(41,137,134,1); margin: 3px 5px 1px 1px; font-size:1.3rem;" />
+                style="color:rgba(41,137,134,1);  font-size:0.9rem;" />
             </div>
             <div style="display:flex; justify-content: center; flex-grow: 1;">
               <div>
-                <span style="color:rgba(41, 137, 134, 0.9); font-size:1rem; font-weight: 600;">{{ item.name }}</span>
+                <span style="color:rgba(41, 137, 134, 0.9); font-size:0.9rem; font-weight: 600;">{{ item.name }}</span>
               </div>
             </div>
           </router-link>
@@ -117,16 +118,12 @@ export default {
   flex-direction: row;
   justify-content: space-between;
 
-  margin-top: 10px;
   font-size: 11px;
   line-height: 25px;
   height: 20px;
   width: 80%;
   background-color: rgba(41, 137, 134, 0.1);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .bar-graph * {
