@@ -23,11 +23,12 @@
     <div class="recommand-btn" style="width:100%;margin-top: 5%; margin-bottom: 5%; background-color: white;">
       <div v-for="item in items" :key="item.id">
 
+
         <div>
           <router-link :to="{ name: item.link }"
             style="display:flex; flex-direction: row; align-items: center; justify-content: space-between;">
-            <div class="bar-graph">
 
+            <div class="bar-graph">
               <div class="content" :data-width="`${item.percent}`" style=";">
               </div>
               <animated-number class="contnet-num" :value="`${item.percent}`" :formatValue="format" :duration="1500"
@@ -49,11 +50,11 @@
 import AnimatedNumber from "animated-number-vue";
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   data() {
     return {
       items: [],
-    }
+    };
   },
   props: {
     user: {
@@ -64,10 +65,9 @@ export default {
 
   },
   components: {
-    AnimatedNumber
+    AnimatedNumber,
   },
-  watch: {
-  },
+  watch: {},
   methods: {
     formatMoney(value) {
       return `￦${value.toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
@@ -84,15 +84,17 @@ export default {
     for(let i =0; i<name.length; i++){
       this.items.push({link:link[i], name:(name[i].split(" "))[0], percent:(val[i]*100), image:""});
     }
+
   },
   mounted() {
-    document.querySelectorAll(".bar-graph div").forEach(el => {
-      el.setAttribute("style", "width:" + el.getAttribute("data-width") +
-        "%;")
-
-    })
+    document.querySelectorAll(".bar-graph div").forEach((el) => {
+      el.setAttribute(
+        "style",
+        "width:" + el.getAttribute("data-width") + "%; transition-duration: 1s;"
+      );
+    });
   },
-}
+};
 </script>
 
 <style>
