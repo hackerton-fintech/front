@@ -8,7 +8,6 @@ import AView from "../components/detail/AView.vue";
 import BView from "../components/detail/BView.vue";
 import CView from "../components/detail/CView.vue";
 import DView from "../components/detail/DView.vue";
-import EView from "../components/detail/EView.vue";
 import LogInVue from "../components/LogInVue.vue";
 Vue.use(VueRouter)
 
@@ -57,11 +56,6 @@ const routes = [
     path: "/d",
     name: "d",
     component: DView,
-  },
-  {
-    path: "/e",
-    name: "e",
-    component: EView,
   },
 ];
 

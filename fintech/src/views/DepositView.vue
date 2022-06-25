@@ -1,7 +1,10 @@
 <template>
   <div class="deposit">
-    <p style="color: white">예금페이지</p>
+    <p style="color: white; padding-top: 65px">예금페이지</p>
     <div class="view">
+      <div class="subtitle">
+        <p>Today's Mintsights</p>
+      </div>
       <AView />
       <BView />
       <CView />
@@ -16,17 +19,20 @@ import AView from "@/components/detail/AView.vue";
 import BView from "@/components/detail/BView.vue";
 import CView from "@/components/detail/CView.vue";
 import DView from "@/components/detail/DView.vue";
-import EView from "@/components/detail/EView.vue";
 export default {
-  components: { AView, BView, CView, DView, EView },
+  components: { AView, BView, CView, DView },
 };
 </script>
 
 <style scoped>
+.subtitle {
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+}
 .deposit {
   height: 306px;
   background-color: rgb(41, 137, 134);
-  border: 1px solid;
 }
 .view {
   display: flex;
@@ -35,25 +41,29 @@ export default {
 }
 </style>
 <style>
+.recommend-box {
+  display: flex;
+}
+.recommend-box * {
+  flex-grow: 1;
+}
 .content-box {
   background-color: #ffffff;
   box-shadow: 5px 8px 5px grey;
   background-size: 30px 30px;
   background: white;
-  width: 200px;
-  height: 50px;
+  width: 357px;
+  height: 133px;
   border-radius: 12px;
   margin: 20px;
 }
 .emoji {
   position: absolute;
   left: 120px;
-  margin-right: 40px;
   width: 40px;
   background-color: rgb(224, 252, 242);
   border-radius: 20px;
   background-size: 10%;
   padding: 5px;
 }
-
 </style>
