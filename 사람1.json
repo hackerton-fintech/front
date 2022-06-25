@@ -1,0 +1,290 @@
+﻿[
+    {
+        "no": "200",
+        "stock": "대한전선",
+        "trading-date": "2022-05-01",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1074",
+        "count": "6"
+    },
+    {
+        "no": "201",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-02",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1817",
+        "count": "2"
+    },
+    {
+        "no": "202",
+        "stock": "금양",
+        "trading-date": "2022-05-02",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1750",
+        "count": "7"
+    },
+    {
+        "no": "203",
+        "stock": "금양",
+        "trading-date": "2022-05-02",
+        "buy": "0",
+        "sell ": "1",
+        "price": "912",
+        "count": "3"
+    },
+    {
+        "no": "204",
+        "stock": "금양",
+        "trading-date": "2022-05-02",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1118",
+        "count": "1"
+    },
+    {
+        "no": "205",
+        "stock": "대한전선",
+        "trading-date": "2022-05-02",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1500",
+        "count": "7"
+    },
+    {
+        "no": "206",
+        "stock": "대한전선",
+        "trading-date": "2022-05-03",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1753",
+        "count": "10"
+    },
+    {
+        "no": "207",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-04",
+        "buy": "0",
+        "sell ": "1",
+        "price": "791",
+        "count": "2"
+    },
+    {
+        "no": "208",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-04",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1199",
+        "count": "3"
+    },
+    {
+        "no": "209",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-04",
+        "buy": "0",
+        "sell ": "1",
+        "price": "880",
+        "count": "10"
+    },
+    {
+        "no": "210",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-04",
+        "buy": "1",
+        "sell ": "0",
+        "price": "848",
+        "count": "2"
+    },
+    {
+        "no": "211",
+        "stock": "대한전선",
+        "trading-date": "2022-05-04",
+        "buy": "0",
+        "sell ": "1",
+        "price": "997",
+        "count": "1"
+    },
+    {
+        "no": "212",
+        "stock": "금양",
+        "trading-date": "2022-05-04",
+        "buy": "1",
+        "sell ": "0",
+        "price": "844",
+        "count": "5"
+    },
+    {
+        "no": "213",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-04",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1455",
+        "count": "3"
+    },
+    {
+        "no": "214",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-04",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1833",
+        "count": "10"
+    },
+    {
+        "no": "215",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-05",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1490",
+        "count": "10"
+    },
+    {
+        "no": "216",
+        "stock": "금양",
+        "trading-date": "2022-05-05",
+        "buy": "1",
+        "sell ": "0",
+        "price": "977",
+        "count": "4"
+    },
+    {
+        "no": "217",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-05",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1962",
+        "count": "1"
+    },
+    {
+        "no": "218",
+        "stock": "대한전선",
+        "trading-date": "2022-05-05",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1857",
+        "count": "5"
+    },
+    {
+        "no": "219",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-05",
+        "buy": "0",
+        "sell ": "1",
+        "price": "713",
+        "count": "5"
+    },
+    {
+        "no": "220",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-05",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1951",
+        "count": "1"
+    },
+    {
+        "no": "221",
+        "stock": "대한전선",
+        "trading-date": "2022-05-05",
+        "buy": "0",
+        "sell ": "1",
+        "price": "668",
+        "count": "2"
+    },
+    {
+        "no": "222",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-06",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1055",
+        "count": "5"
+    },
+    {
+        "no": "223",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-06",
+        "buy": "1",
+        "sell ": "0",
+        "price": "966",
+        "count": "1"
+    },
+    {
+        "no": "224",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-06",
+        "buy": "0",
+        "sell ": "1",
+        "price": "961",
+        "count": "8"
+    },
+    {
+        "no": "225",
+        "stock": "금양",
+        "trading-date": "2022-05-07",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1396",
+        "count": "5"
+    },
+    {
+        "no": "226",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-07",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1809",
+        "count": "1"
+    },
+    {
+        "no": "227",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-07",
+        "buy": "0",
+        "sell ": "1",
+        "price": "740",
+        "count": "3"
+    },
+    {
+        "no": "228",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-08",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1597",
+        "count": "10"
+    },
+    {
+        "no": "229",
+        "stock": "금양",
+        "trading-date": "2022-05-08",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1270",
+        "count": "4"
+    },
+    {
+        "no": "230",
+        "stock": "대한전선",
+        "trading-date": "2022-05-08",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1238",
+        "count": "9"
+    },
+    {
+        "no": "231",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-09",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1724",
+        "count": "7"
+    }
+]

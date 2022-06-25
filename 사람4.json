@@ -1,0 +1,317 @@
+﻿[
+    {
+        "no": "289",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-24",
+        "buy": "0",
+        "sell ": "1",
+        "price": "791",
+        "count": "10"
+    },
+    {
+        "no": "290",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-24",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1131",
+        "count": "8"
+    },
+    {
+        "no": "291",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-24",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1957",
+        "count": "2"
+    },
+    {
+        "no": "292",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-24",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1722",
+        "count": "9"
+    },
+    {
+        "no": "293",
+        "stock": "금양",
+        "trading-date": "2022-05-24",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1884",
+        "count": "10"
+    },
+    {
+        "no": "294",
+        "stock": "대한전선",
+        "trading-date": "2022-05-24",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1500",
+        "count": "7"
+    },
+    {
+        "no": "295",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-24",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1131",
+        "count": "3"
+    },
+    {
+        "no": "296",
+        "stock": "대한전선",
+        "trading-date": "2022-05-25",
+        "buy": "0",
+        "sell ": "1",
+        "price": "670",
+        "count": "1"
+    },
+    {
+        "no": "297",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-25",
+        "buy": "0",
+        "sell ": "1",
+        "price": "744",
+        "count": "6"
+    },
+    {
+        "no": "298",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-25",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1384",
+        "count": "1"
+    },
+    {
+        "no": "299",
+        "stock": "금양",
+        "trading-date": "2022-05-25",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1897",
+        "count": "1"
+    },
+    {
+        "no": "300",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-26",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1741",
+        "count": "2"
+    },
+    {
+        "no": "301",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-26",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1399",
+        "count": "9"
+    },
+    {
+        "no": "302",
+        "stock": "일진홀딩스",
+        "trading-date": "2022-05-26",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1961",
+        "count": "3"
+    },
+    {
+        "no": "303",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-26",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1426",
+        "count": "10"
+    },
+    {
+        "no": "304",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-27",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1788",
+        "count": "7"
+    },
+    {
+        "no": "305",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-27",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1853",
+        "count": "6"
+    },
+    {
+        "no": "306",
+        "stock": "대한전선",
+        "trading-date": "2022-05-27",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1630",
+        "count": "1"
+    },
+    {
+        "no": "307",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-27",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1441",
+        "count": "7"
+    },
+    {
+        "no": "308",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-27",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1819",
+        "count": "2"
+    },
+    {
+        "no": "309",
+        "stock": "금양",
+        "trading-date": "2022-05-27",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1282",
+        "count": "4"
+    },
+    {
+        "no": "310",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-27",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1609",
+        "count": "4"
+    },
+    {
+        "no": "311",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-27",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1806",
+        "count": "6"
+    },
+    {
+        "no": "312",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-27",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1996",
+        "count": "5"
+    },
+    {
+        "no": "313",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-28",
+        "buy": "0",
+        "sell ": "1",
+        "price": "874",
+        "count": "8"
+    },
+    {
+        "no": "314",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-28",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1690",
+        "count": "1"
+    },
+    {
+        "no": "315",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-28",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1074",
+        "count": "1"
+    },
+    {
+        "no": "316",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-28",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1839",
+        "count": "7"
+    },
+    {
+        "no": "317",
+        "stock": "금양",
+        "trading-date": "2022-05-28",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1473",
+        "count": "8"
+    },
+    {
+        "no": "318",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-29",
+        "buy": "1",
+        "sell ": "0",
+        "price": "832",
+        "count": "3"
+    },
+    {
+        "no": "319",
+        "stock": "삼성전자",
+        "trading-date": "2022-05-29",
+        "buy": "1",
+        "sell ": "0",
+        "price": "1244",
+        "count": "3"
+    },
+    {
+        "no": "320",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-29",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1465",
+        "count": "1"
+    },
+    {
+        "no": "321",
+        "stock": "삼부토건",
+        "trading-date": "2022-05-30",
+        "buy": "1",
+        "sell ": "0",
+        "price": "969",
+        "count": "1"
+    },
+    {
+        "no": "322",
+        "stock": "대한전선",
+        "trading-date": "2022-05-30",
+        "buy": "0",
+        "sell ": "1",
+        "price": "829",
+        "count": "5"
+    },
+    {
+        "no": "323",
+        "stock": "쌍방울",
+        "trading-date": "2022-05-30",
+        "buy": "0",
+        "sell ": "1",
+        "price": "1712",
+        "count": "1"
+    }
+]
